@@ -1,0 +1,47 @@
+/***************************Tag Selectors*******************************/
+img:hover {
+  border-color: #0F3D3E;
+  height: 200px;
+  border-radius: 100%;
+  border-width: 3px;
+  border-style: solid;
+}
+  body {
+    background-color: #100F0F;
+  }
+  h1 {
+    color: #E2DCC8;
+    font-family: "Arial";
+  }
+  h2 {
+    color: #E2DCC8;
+    font-family: "Arial";
+  }
+  h3 {
+    color: #E2DCC8;
+    font-family: "Arial";
+  }
+  ul {
+    color: #E2DCC8;
+    font-family: "Arial";
+  }
+  p {
+    color: #E2DCC8;
+    font-family: "Arial";
+  }
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #0F3D3E;
+    border-width: 5px;
+    width: 5%;
+  }
+/***************Class Selectors (Use for groups to style)***************/
+.portrait {
+  height: 200px;
+}
+/***************ID Selectors (Use for a unique item to style)************/
+#myName {
+  font-family: Luminari;
+  font-variant: small-caps;
+}
