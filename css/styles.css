@@ -1,10 +1,6 @@
 /***************************Tag Selectors*******************************/
-img:hover {
-  border-color: #0F3D3E;
+img {
   height: 200px;
-  border-radius: 100%;
-  border-width: 3px;
-  border-style: solid;
 }
   body {
     background-color: #100F0F;
@@ -38,7 +34,14 @@ img:hover {
   }
 /***************Class Selectors (Use for groups to style)***************/
 .portrait {
+  border-color: #0F3D3E;
   height: 200px;
+  border-radius: 100%;
+  border-width: 3px;
+  border-style: solid;
+}
+.artwork {
+  padding: 50px;
 }
 /***************ID Selectors (Use for a unique item to style)************/
 #myName {
