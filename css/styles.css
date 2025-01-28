@@ -33,7 +33,7 @@ h3 {
 * {box-sizing: border-box}
 
 .container {
-  width: 50%;
+  width: 100%;
   background-color: #ddd;;
 }
 
